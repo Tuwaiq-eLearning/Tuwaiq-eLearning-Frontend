@@ -620,19 +620,39 @@ footer p{
 
     nav{
         display: flex;
-        flex-direction: column;
     }
 
     .info{
+        margin: 0;
         display: flex;
-        flex-direction: row;
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+    }
+
+    .info-1{
+        width: 40%;
     }
 
     .info-2{
+        width: 40%;
         margin: 0;
-
     }
 
+    .info img{
+        top: -50px;
+        left: 150px;
+    }
+
+    .footer-logos{
+        padding: 0;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .footer-text{
+        justify-content: space-evenly;
+    }
     
 
 }
