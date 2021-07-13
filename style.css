@@ -1,3 +1,291 @@
+
+body {
+  position: relative;
+}
+.box {
+  position: absolute;
+  top: 4380px;
+  left: 134px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  width: 1756px;
+  height: 508px;
+  /* border: 1px solid red; */
+  background: #fafcff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 70px #00000014;
+  border-radius: 77px;
+  opacity: 1;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+.img-column {
+  position: absolute;
+  top: 44px;
+  left: 277px;
+  width: 472px;
+  height: 403px;
+}
+
+.txt-column {
+  position: absolute;
+  top: 77px;
+  left: 983px;
+  width: 677px;
+  height: 88px;
+  text-align: left;
+  font: normal normal normal 60px/88px DIN Next LT W23;
+  letter-spacing: 0px;
+  color: #00161e;
+  opacity: 1;
+}
+.btn-column {
+  position: absolute;
+  top: 200px;
+  left: 1123px;
+  width: 338px;
+  height: 71px;
+  background: #00adbb 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 20px #00000029;
+  border-radius: 15px;
+  opacity: 1;
+}
+#txtBtn {
+    margin-top: 17px;
+  top: 300px;
+  left: 1194px;
+  width: 256px;
+  height: 38px;
+  text-align: right;
+  font: normal normal normal 26px/38px DIN Next LT W23;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.blackShape-container {
+  position: absolute;
+  top: 3161px;
+  left: 266px;
+  width: 1518px;
+  height: 1001px;
+  background: transparent url("./images/BlackShape1.svg") 0% 0% no-repeat
+    padding-box;
+  /* box-shadow: 0px 10px 40px #00000029; */
+  opacity: 1;
+}
+.blackShape {
+  z-index: -1;
+}
+.coderHub {
+  position: absolute;
+  top: 101px;
+  left: 730px;
+  width: 221px;
+  height: 168px;
+  background: transparent url("./images/coderHub1.png") 0% 0% no-repeat
+    padding-box;
+  opacity: 1;
+}
+.blackShape-txt1 {
+  position: absolute;
+  top: 301px;
+  left: 487px;
+  width: 875px;
+  height: 88px;
+  text-align: left;
+  font: normal normal normal 60px/88px DIN Next LT W23;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+.blackShape-txt2 {
+  position: absolute;
+  top: 401px;
+  left: 624px;
+  width: 522px;
+  height: 42px;
+  text-align: left;
+  font: normal normal normal 28px/42px DIN Next LT W23;
+  letter-spacing: 0px;
+  color: #8e9395;
+  opacity: 1;
+}
+.icons {
+  /* display: flex; */
+}
+.icon {
+  position: absolute;
+  top: 500px;
+  left: 849px;
+  width: 69px;
+  height: 70px;
+  background: transparent url("img/01s.png") 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+.icon1 {
+  position: absolute;
+  top: 500px;
+  left: 649px;
+  width: 69px;
+  height: 70px;
+  background: transparent url("img/01s.png") 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+.icon2 {
+  position: absolute;
+  top: 500px;
+  left: 749px;
+  width: 69px;
+  height: 70px;
+  background: transparent url("img/01s.png") 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+.icon3 {
+  position: absolute;
+  top: 500px;
+  left: 849px;
+  width: 69px;
+  height: 70px;
+  background: transparent url("img/01s.png") 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+.icon4 {
+  position: absolute;
+  top: 500px;
+  left: 949px;
+  width: 69px;
+  height: 70px;
+  background: transparent url("img/01s.png") 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+.levelez {
+  position: relative;
+  top: 3761px;
+  left: 527px;
+  width: 299px;
+  height: 303px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 30px #00000029;
+  border-radius: 50px;
+  opacity: 0.08;
+}
+.levelmed {
+  position: relative;
+  top: 3461px;
+  left: 927px;
+  width: 299px;
+  height: 303px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 30px #00000029;
+  border-radius: 50px;
+  opacity: 0.08;
+}
+.levelhard {
+  position: relative;
+  top: 3161px;
+  left: 1327px;
+  width: 299px;
+  height: 303px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 30px #00000029;
+  border-radius: 50px;
+  opacity: 0.08;
+}
+.ez {
+  position: absolute;
+  top: 3750px;
+  left: 558px;
+  width: 299px;
+  height: 303px;
+  text-align: left;
+  font: normal normal normal 60px/88px DIN Next LT W23;
+  letter-spacing: 0px;
+  color: #97bf7e;
+  opacity: 1;
+}
+.ez img {
+  top: 5000px;
+  left: 418px;
+  width: 253px;
+  height: 175px;
+  background: transparent url("img/01e.png") 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+.med {
+  position: absolute;
+  top: 3750px;
+  left: 950px;
+  width: 299px;
+  height: 303px;
+  text-align: left;
+  font: normal normal normal 60px/88px DIN Next LT W23;
+  letter-spacing: 0px;
+  color: #97bf7e;
+  opacity: 1;
+}
+.med img {
+  top: 5000px;
+  left: 618px;
+  width: 253px;
+  height: 175px;
+  background: transparent url("img/01e.png") 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+.hard {
+  position: absolute;
+  top: 3750px;
+  left: 1348px;
+  width: 299px;
+  height: 303px;
+  text-align: left;
+  font: normal normal normal 60px/88px DIN Next LT W23;
+  letter-spacing: 0px;
+  color: #97bf7e;
+  opacity: 1;
+}
+.hard img {
+  top: 5000px;
+  left: 618px;
+  width: 253px;
+  height: 175px;
+  background: transparent url("img/01e.png") 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+.ezTXT {
+  text-align: left;
+  font: normal normal normal 60px/88px DIN Next LT W23;
+  letter-spacing: 0px;
+  color: #97bf7e;
+  opacity: 1;
+  margin-left: 80px;
+}
+.mdTXT {
+  text-align: left;
+  font: normal normal normal 60px/88px DIN Next LT W23;
+  letter-spacing: 0px;
+  color: #e4e06c;
+  opacity: 1;
+  margin-left: 80px;
+}
+.hardTXT {
+  text-align: left;
+  font: normal normal normal 60px/88px DIN Next LT W23;
+  letter-spacing: 0px;
+  color: #d24f55;
+  opacity: 1;
+  margin-left: 80px;
+}
+=======
 /* *{
     margin: 0;
 } */
