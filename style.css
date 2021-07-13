@@ -25,26 +25,6 @@ body {
 
 
 
-@media screen and (min-width: 500px) {
-
-    .dropdown{
-        display: none;
-    }
-
-    .newacc-btn{
-        display: block;
-    }
-    
-    .register-btn{
-        display: block;
-    }
-
-    nav{
-        display: flex;
-        flex-direction: column;
-    }
-
-}
 
 
 .newacc-btn{
@@ -226,6 +206,11 @@ body {
 
 
     
+
+ @font-face {
+    font-family: "DIN Next LT W23";
+    src: url("./fonts/din-next-lt-w23-medium.ttf") format('truetype');
+}
 
 body {
   /* position: relative; */
@@ -615,4 +600,39 @@ footer p{
     font-size: 12px;
     padding: 20px 0 15px 0;
     text-align: center;
+}
+
+
+
+@media screen and (min-width: 500px) {
+
+    .dropdown{
+        display: none;
+    }
+
+    .newacc-btn{
+        display: block;
+    }
+    
+    .register-btn{
+        display: block;
+    }
+
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .info{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .info-2{
+        margin: 0;
+
+    }
+
+    
+
 }
