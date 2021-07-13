@@ -25,40 +25,21 @@ body {
 
 
 
-@media screen and (min-width: 500px) {
-
-    .dropdown{
-        display: none;
-    }
-
-    .newacc-btn{
-        display: block;
-    }
-    
-    .register-btn{
-        display: block;
-    }
-
-    nav{
-        display: flex;
-        flex-direction: column;
-    }
-
-}
 
 
 .newacc-btn{
-    /* display: none; */
+    display: none;
     background: #00ADBB 0% 0% no-repeat padding-box;
     padding: 10px;
     margin: 10px;
+    margin-left: 65px;
     border-radius: 9px;
     opacity: 1;
     border: transparent;
 }
 
 .register-btn{
-    /* display: none; */
+    display: none;
     background: #FAFAFA 0% 0% no-repeat padding-box;
     padding: 10px;
     margin: 10px;
@@ -226,6 +207,11 @@ body {
 
 
     
+
+ @font-face {
+    font-family: "DIN Next LT W23";
+    src: url("./fonts/din-next-lt-w23-medium.ttf") format('truetype');
+}
 
 body {
   /* position: relative; */
@@ -615,4 +601,70 @@ footer p{
     font-size: 12px;
     padding: 20px 0 15px 0;
     text-align: center;
+}
+
+
+
+@media screen and (min-width: 500px) {
+
+
+    .dropdown{
+        display: none;
+    }
+
+    .newacc-btn{
+        display: block;
+    }
+    
+    .register-btn{
+        display: block;
+    }
+
+    nav{
+        display: flex;
+        flex-direction: row;
+    }
+
+    nav img{
+        margin-left: auto;
+        margin-right: 50px;
+    }
+
+
+
+    .info{
+        margin: 0;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+    }
+
+    .info-1{
+        width: 40%;
+    }
+
+    .info-2{
+        width: 40%;
+        margin: 0;
+    }
+
+    .info img{
+        top: -50px;
+        left: 150px;
+    }
+
+    .footer-logos{
+        padding: 0;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .footer-text{
+        justify-content: space-evenly;
+    }
+
+
+    
+
 }
