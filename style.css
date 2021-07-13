@@ -1,7 +1,18 @@
 
 body {
-  position: relative;
+  /* position: relative; */
+  font-family: 'DIN Next LT W23', sans-serif;
 }
+
+
+@font-face {
+    font-family: "DIN Next LT W23";
+    src: url("./fonts/din-next-lt-w23-medium.ttf") format('truetype');
+}
+
+
+/* F */
+
 .box {
   position: absolute;
   top: 4380px;
@@ -285,10 +296,19 @@ body {
   opacity: 1;
   margin-left: 80px;
 }
-=======
-/* *{
-    margin: 0;
-} */
+
+
+/* END F */
+
+
+
+
+
+
+
+
+
+
 
 
 
