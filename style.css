@@ -1,0 +1,51 @@
+/* *{
+    margin: 0;
+} */
+
+
+
+
+nav{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.dropdown{
+    padding-left: 20px;
+}
+
+footer{
+    background-color: #00ADBB;
+    margin-top: 50px;
+    
+
+}
+
+.footer-logos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 50px;
+    height: 150px;
+}
+
+
+.footer-text{
+    display: flex;
+    justify-content: space-around;
+}
+.footer-text a{
+    color: white;
+    text-decoration: none;
+    /* font-family: 'DIN Next LT W23', sans-serif; */
+
+
+
+}
+
+footer p{
+    color: white;
+    font-size: 12px;
+    padding: 20px 0 15px 0;
+    text-align: center;
+}
