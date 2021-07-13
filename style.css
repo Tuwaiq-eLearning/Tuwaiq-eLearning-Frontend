@@ -9,6 +9,7 @@
  
 }
 
+/* 
 html {
     overflow-x: hidden;
     
@@ -20,7 +21,52 @@ body {
     overflow-x: hidden;
     
     width: 100%;
+} */
+
+
+
+@media screen and (min-width: 500px) {
+
+    .dropdown{
+        display: none;
+    }
+
+    .newacc-btn{
+        display: block;
+    }
+    
+    .register-btn{
+        display: block;
+    }
+
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+
 }
+
+
+.newacc-btn{
+    /* display: none; */
+    background: #00ADBB 0% 0% no-repeat padding-box;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 9px;
+    opacity: 1;
+    border: transparent;
+}
+
+.register-btn{
+    /* display: none; */
+    background: #FAFAFA 0% 0% no-repeat padding-box;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #50B9C9;
+    border-radius: 9px;
+    opacity: 1;
+}
+
 
 .parent-main{
     position: relative;
@@ -28,155 +74,155 @@ body {
     height: 1090px;
 }
 
-    .whiteBox{
-        position: absolute;
-         top: -4.928px;
-         left: -39px;
-         width: 120%;
-         height: 415.57px;
-         clip: auto;
-         transform: rotate(-24deg);
-         /* UI Properties */
-         background-color: white !important;
-         box-shadow: 0px 3px 40px #00000029;
-         border-radius: 99px;
-         opacity: 1;
-         z-index: -1;
-     }
-     .white-img{
-        position: inherit;
-        top: 33px;
-        left: 48px;
-        width: 233px;
-        height: 231px;
-        /* UI Properties */
-        background: transparent url('img/banner0 copy.png') 0% 0% no-repeat padding-box;
-        transform: rotate(24deg);
-        opacity: 1;
-     }
+.whiteBox{
+    position: absolute;
+     top: -4.928px;
+     left: -39px;
+     width: 500px;
+     height: 415.57px;
+     clip: auto;
+     transform: rotate(-24deg);
+     /* UI Properties */
+     background-color: white !important;
+     box-shadow: 0px 3px 40px #00000029;
+     border-radius: 99px;
+     opacity: 1;
+     z-index: -1;
+ }
+ .white-img{
+    position: inherit;
+    top: 33px;
+    left: 48px;
+    width: 233px;
+    height: 231px;
+    /* UI Properties */
+    background: transparent url('img/banner0 copy.png') 0% 0% no-repeat padding-box;
+    transform: rotate(24deg);
+    opacity: 1;
+ }
 
-     #white-text-1{
-         
-         position: absolute;
-         margin-top:282px;
-         margin-left:240px;
-         transform: rotate(24deg);
-         text-align: left;
-         width: 200px;
-         height: 44px;
-         font-family: 'DIN next arabic';
-         color: black;
-         font-size: 30px;
-         letter-spacing: 0px;
-     }
+ #white-text-1{
+     
+     position: absolute;
+     margin-top:282px;
+     margin-left:240px;
+     transform: rotate(24deg);
+     text-align: left;
+     width: 200px;
+     height: 44px;
+     font-family: 'DIN next arabic';
+     color: black;
+     font-size: 30px;
+     letter-spacing: 0px;
+ }
 
-     #white-text-2{
-        position: absolute;
-        margin-top:300px;
-        margin-left:147px;
-        transform: rotate(24deg);
-        text-align: right;
-        width: 190px;
-        height: 44px;
-        font-family: 'DIN next arabic';
-        color: black;
-        font-size: 12px;
-        letter-spacing: 0px;
-     }
+ #white-text-2{
+    position: absolute;
+    margin-top:300px;
+    margin-left:147px;
+    transform: rotate(24deg);
+    text-align: right;
+    width: 190px;
+    height: 44px;
+    font-family: 'DIN next arabic';
+    color: black;
+    font-size: 12px;
+    letter-spacing: 0px;
+ }
 
-     #register-button{
-        margin-top: 324px;
-         margin-left: 44px;
-         transform: rotate(24deg);
-         width: 230px;
-         height: 47px;
-         font-family: 'DIN next arabic';
-         text-align: center;
-         color: #EBEAEA;
-         font-size: 16px;
-         font-weight: bolder;
-         letter-spacing: 0px;
-         /* UI Properties */
-         background: #00ADBB;
-         box-shadow: 0px 3px 20px #00000029;
-         border-radius: 16px;
-         opacity: 1;
-     }
-     
-     
-     .blackBox{
-         position:absolute;
-         background-color: black !important;
-         top: 250px;
-         left: 0px;
-         width: 375px;
-         height: 735px;
-         transform: matrix(1, 0, 0, 1, 0, 0);
-         /* UI Properties */
-         background: transparent url('img/Rectangle 64.png') 0% 0% no-repeat padding-box;
-         box-shadow: 0px 5px 40px #00000029;
-         border-radius: 53px;
-         opacity: 1;
-         z-index: -2 !important;
-     }
-     
-     .black-img{
-         position: inherit;
-         top: 230px;
-         left: 0px;
-         width: 305px;
-         height: 243px;
-         /* UI Properties */
-         background: transparent url('img/01dar.png') 0% 0% no-repeat padding-box;
-         opacity: 1;
-     }
-     
-     #black-text-1{
-         margin: 10px;
-         position: relative;
-         margin:auto;
-         text-align: left;
-         width: 159px;
-         height: 44px;
-         font-family: 'DIN next arabic';
-         top: 475px;
-         left: 80px;
-         color: #EBEAEA;
-         font-size: 30px;
-         letter-spacing: 0px;
-     }
-     
-     #black-text-2{
-         position: relative;
-         margin-top: 10px;
-         width: 176px;
-         height: 44px;
-         font-family: 'DIN next arabic';
-         top: 473px;
-         left: 153px;
-         text-align: right;
-         color: #EBEAEA;
-         font-size: 12px;
-         letter-spacing: 0px;
-     }
-     
-     #startChallenge-button{
-         margin-top: 500px;
-         margin-left: 75px;
-         width: 230px;
-         height: 47px;
-         font-family: 'DIN next arabic';
-         text-align: center;
-         color: #EBEAEA;
-         font-size: 16px;
-         font-weight: bolder;
-         letter-spacing: 0px;
-         /* UI Properties */
-         background: #00ADBB;
-         box-shadow: 0px 3px 20px #00000029;
-         border-radius: 16px;
-         opacity: 1;
-     }
+ #register-button{
+    margin-top: 324px;
+     margin-left: 44px;
+     transform: rotate(24deg);
+     width: 230px;
+     height: 47px;
+     font-family: 'DIN next arabic';
+     text-align: center;
+     color: #EBEAEA;
+     font-size: 16px;
+     font-weight: bolder;
+     letter-spacing: 0px;
+     /* UI Properties */
+     background: #00ADBB;
+     box-shadow: 0px 3px 20px #00000029;
+     border-radius: 16px;
+     opacity: 1;
+ }
+ 
+ 
+ .blackBox{
+     position:absolute;
+     background-color: black !important;
+     top: 250px;
+     left: 0px;
+     width: 375px;
+     height: 735px;
+     transform: matrix(1, 0, 0, 1, 0, 0);
+     /* UI Properties */
+     background: transparent url('img/Rectangle 64.png') 0% 0% no-repeat padding-box;
+     box-shadow: 0px 5px 40px #00000029;
+     border-radius: 53px;
+     opacity: 1;
+     z-index: -2 !important;
+ }
+ 
+ .black-img{
+     position: inherit;
+     top: 230px;
+     left: 0px;
+     width: 305px;
+     height: 243px;
+     /* UI Properties */
+     background: transparent url('img/01dar.png') 0% 0% no-repeat padding-box;
+     opacity: 1;
+ }
+ 
+ #black-text-1{
+     margin: 10px;
+     position: relative;
+     margin:auto;
+     text-align: left;
+     width: 159px;
+     height: 44px;
+     font-family: 'DIN next arabic';
+     top: 475px;
+     left: 80px;
+     color: #EBEAEA;
+     font-size: 30px;
+     letter-spacing: 0px;
+ }
+ 
+ #black-text-2{
+     position: relative;
+     margin-top: 10px;
+     width: 176px;
+     height: 44px;
+     font-family: 'DIN next arabic';
+     top: 473px;
+     left: 153px;
+     text-align: right;
+     color: #EBEAEA;
+     font-size: 12px;
+     letter-spacing: 0px;
+ }
+ 
+ #startChallenge-button{
+     margin-top: 500px;
+     margin-left: 75px;
+     width: 230px;
+     height: 47px;
+     font-family: 'DIN next arabic';
+     text-align: center;
+     color: #EBEAEA;
+     font-size: 16px;
+     font-weight: bolder;
+     letter-spacing: 0px;
+     /* UI Properties */
+     background: #00ADBB;
+     box-shadow: 0px 3px 20px #00000029;
+     border-radius: 16px;
+     opacity: 1;
+ }
 
 
     
@@ -185,13 +231,6 @@ body {
   /* position: relative; */
   font-family: 'DIN Next LT W23', sans-serif;
 }
-
-
-@font-face {
-    font-family: "DIN Next LT W23";
-    src: url("./fonts/din-next-lt-w23-medium.ttf") format('truetype');
-}
-
 
 /* F */
 
