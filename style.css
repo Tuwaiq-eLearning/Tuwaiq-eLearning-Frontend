@@ -335,9 +335,7 @@ body {
   color: #8e9395;
   opacity: 1;
 }
-.icons {
-  /* display: flex; */
-}
+
 .icon {
   position: absolute;
   top: 500px;
@@ -695,6 +693,15 @@ footer p{
     .info img{
         top: -50px;
         left: 150px;
+    }
+
+    .browse{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .browse p{
+        font-size: 30px;
     }
 
     .footer-logos{
